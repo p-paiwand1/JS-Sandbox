@@ -1,0 +1,29 @@
+// BINARY IF STATEMENT
+
+// Boolean Data Type - True or False
+
+let isfriday = true;
+
+if (isfriday) {
+  console.log("let's go to jk.");
+} else {
+  console.log("can't go to jk.");
+}
+
+let olderthan20 = false;
+let hasaliscence = false;
+
+if (olderthan20) {
+  console.log("can buy a luxurious car.");
+} else {
+  console.log("can't buy a luxurious car.(but a cheap car)");
+}
+
+let needaloptop = false;
+let havemoney = false;
+
+if ((needaloptop && havemoney) || !havemoney) {
+  console.log("it's possible to have it.");
+} else {
+  console.log(" It's not possible to have it.");
+}
